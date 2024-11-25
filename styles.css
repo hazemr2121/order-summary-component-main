@@ -1,0 +1,92 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-family: system-ui;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vh;
+}
+
+.card {
+  width: 350px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+.card-top {
+  background-image: url(images/illustration-hero.svg);
+  background-size: cover;
+  height: 190px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.card-body {
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.outer-div {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: ghostwhite;
+  padding: 20px;
+}
+.card-section {
+  display: flex;
+  align-items: center;
+}
+
+.h5-p-tag {
+  margin-left: 10px;
+}
+.card-section h5,
+.card-section p {
+  margin: 8px;
+}
+
+.card-footer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.card-footer a {
+  text-align: center;
+  text-decoration: none;
+  color: #6e7790;
+  padding-top: 10px;
+}
+.card-footer a:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+.card-footer button {
+  cursor: pointer;
+  padding: 12px 0px;
+  border: none;
+  outline: none;
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  border-radius: 10px;
+  width: 100%;
+}
+.card-footer button:hover {
+  background-color: hsl(245, 83%, 68%);
+}
+
+.change {
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.change span:hover {
+  background-color: black;
+}
